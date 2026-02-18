@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Штучний інтелект</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: white;
+        }
+
+        header {
+            background: linear-gradient(90deg, #1e3a8a, #6d28d9);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #111827;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #38bdf8;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #38bdf8;
+        }
+
+        .card {
+            background-color: #1f2937;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #111827;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Штучний Інтелект</h1>
+    <p>Технології майбутнього вже сьогодні</p>
+</header>
+
+<nav>
+    <a href="#about">Про AI</a>
+    <a href="#usage">Застосування</a>
+    <a href="#facts">Цікаві факти</a>
+</nav>
+
+<section id="about">
+    <h2>Що таке штучний інтелект?</h2>
+    <div class="card">
+        <p>
+            Штучний інтелект (AI) — це технологія, що дозволяє комп'ютерам 
+            навчатися, аналізувати дані та приймати рішення без прямого втручання людини.
+        </p>
+        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="AI мозок">
+    </div>
+</section>
+
+<section id="usage">
+    <h2>Де використовується?</h2>
+    <div class="card">
+        <ul>
+            <li>Медицина — аналіз медичних знімків</li>
+            <li>Транспорт — безпілотні автомобілі</li>
+            <li>Бізнес — автоматизація процесів</li>
+            <li>Освіта — персоналізоване навчання</li>
+        </ul>
+    </div>
+</section>
+
+<section id="facts">
+    <h2>Цікаві факти</h2>
+    <div class="card">
+        <p>Термін «Artificial Intelligence» був запропонований у 1956 році.</p>
+        <p>Сучасні AI-моделі можуть створювати текст, музику та зображення.</p>
+        <p>AI допомагає аналізувати великі масиви даних за секунди.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Сайт про штучний інтелект</p>
+</footer>
+
+</body>
+</html>
